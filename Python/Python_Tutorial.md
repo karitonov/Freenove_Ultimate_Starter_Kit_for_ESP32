@@ -33,3 +33,26 @@ ESP32において、GPIOは周辺回路を制御するためのインターフ�
 詳しくはこちらをご覧ください：
 
 [https://www.espressif.com/sites/default/files/documentation/esp32-wrover_datasheet_en.pdf](https://www.espressif.com/sites/default/files/documentation/esp32-wrover_datasheet_en.pdf)
+
+# Chapter 0 Ready (Important)
+
+プロジェクトの構築を開始する前に、飛ばしてはならないほど重要ないくつかの準備をする必要があります。
+
+## 0.1 Installing Thonny (Important)
+
+Thonnyはフリーのオープンソースソフトウェアプラットフォームで、コンパクトなサイズ、シンプルなインターフェース、シンプルな操作、豊富な機能を備えており、初心者向けのPython IDEです。このチュートリアルでは、このIDEを使ってESP32を開発します。
+
+ThonnyはWindows、Mac OS、Linuxなど様々なOSをサポートしています。
+
+### Downloading Thonny
+
+* [https://thonny.org/](https://thonny.org/)
+* [https://github.com/thonny/thonny/releases/](https://github.com/thonny/thonny/releases/)
+
+## 0.2 Basic Configuration of Thonny
+
+## 0.3 Installing CH340 (Important)
+
+ESP32はCH340を使ってコードをダウンロードする。そのため、使用する前にCH340ドライバをコンピュータにインストールする必要がある。
+
+## 0.4 Burning Micropython Firmware (Important)
